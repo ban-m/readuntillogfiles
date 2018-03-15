@@ -1,0 +1,216 @@
+200000,9,3,14,27.215092
+[13:17:22 - ReadUntil] Creating many chunk client with ReadCache data queue filtering to adapter and strand read chunks.
+[13:17:22 - ReadUntil] Querying MinKNOW at http://127.0.0.1:8000/jsonrpc.
+[13:17:22 - ReadUntil] Creating rpc connection on port 8004.
+[13:17:22 - ReadUntil] Got rpc connection.
+[13:17:22 - Dyss] Initialization of Dyss classificationWhen debug and verbose flag is on, it generates literaly all inputs.If you want to apply this application to real sequencing experiment,it is highly recommended to turn these flags off.
+[13:17:22 - Dyss] Starting analysis of reads in 1s.
+[13:17:22 - ReadUntil] Sending init command, channels:1-512, min_chunk:3500
+[13:17:22 - ReadUntil] Running Read Until for 60 seconds.
+[13:17:23 - Dyss] process30 reads in 0.0584061145782 sec.
+[13:17:23 - ReadUntil] Interval update: 307 read sections, 303 unique reads (ever), average 8523 samples behind. 3.00 MB raw data, 3 reads in queue, 0 reads missed, 1 chunks replaced.
+[13:17:23 - ReadUntil] Response summary: Counter({0: 8})
+[13:17:24 - Dyss] process30 reads in 0.0001060962677 sec.
+query chunked:5196->2
+query chunked:4823->2
+query chunked:5181->2
+query chunked:4819->2
+query chunked:4934->2
+[13:17:24 - ReadUntil] Interval update: 456 read sections, 471 unique reads (ever), average 8512 samples behind. 5.00 MB raw data, 123 reads in queue, 0 reads missed, 40 chunks replaced.
+[13:17:24 - ReadUntil] Response summary: Counter({0: 73})
+[13:17:25 - Dyss] process30 reads in 1.37653899193 sec.
+query chunked:6026->145
+[13:17:25 - Dyss] process30 reads in 0.471133947372 sec.
+[13:17:26 - ReadUntil] Interval update: 362 read sections, 588 unique reads (ever), average 9054 samples behind. 4.00 MB raw data, 43 reads in queue, 0 reads missed, 54 chunks replaced.
+[13:17:26 - ReadUntil] Response summary: Counter({0: 150})
+[13:17:27 - ReadUntil] Interval update: 404 read sections, 734 unique reads (ever), average 8432 samples behind. 4.00 MB raw data, 93 reads in queue, 0 reads missed, 108 chunks replaced.
+[13:17:27 - ReadUntil] Response summary: Counter({0: 258, 1: 3})
+[13:17:27 - Dyss] process30 reads in 1.99523901939 sec.
+[13:17:28 - Dyss] process30 reads in 0.0309100151062 sec.
+[13:17:28 - Dyss] process30 reads in 7.9870223999e-05 sec.
+score,22.53906
+query chunked:6122->1
+[13:17:28 - ReadUntil] Interval update: 318 read sections, 852 unique reads (ever), average 8390 samples behind. 3.00 MB raw data, 0 reads in queue, 0 reads missed, 145 chunks replaced.
+[13:17:28 - ReadUntil] Response summary: Counter({0: 328, 1: 12})
+[13:17:29 - ReadUntil] Interval update: 438 read sections, 990 unique reads (ever), average 9188 samples behind. 4.00 MB raw data, 74 reads in queue, 0 reads missed, 176 chunks replaced.
+[13:17:29 - ReadUntil] Response summary: Counter({0: 409, 1: 43})
+[13:17:30 - Dyss] process30 reads in 1.92684984207 sec.
+score,13.646766
+[13:17:30 - ReadUntil] Interval update: 287 read sections, 1085 unique reads (ever), average 9282 samples behind. 3.00 MB raw data, 64 reads in queue, 0 reads missed, 196 chunks replaced.
+[13:17:30 - ReadUntil] Response summary: Counter({0: 580, 1: 78})
+[13:17:31 - ReadUntil] Interval update: 346 read sections, 1214 unique reads (ever), average 9349 samples behind. 4.00 MB raw data, 78 reads in queue, 1 reads missed, 228 chunks replaced.
+[13:17:31 - ReadUntil] Response summary: Counter({0: 589, 1: 78})
+[13:17:32 - Dyss] process30 reads in 2.954226017 sec.
+[13:17:33 - ReadUntil] Interval update: 280 read sections, 1319 unique reads (ever), average 9251 samples behind. 3.00 MB raw data, 64 reads in queue, 2 reads missed, 266 chunks replaced.
+[13:17:33 - ReadUntil] Response summary: Counter({0: 601, 1: 80})
+query chunked:5637->2
+query chunked:5325->2
+[13:17:34 - ReadUntil] Interval update: 390 read sections, 1487 unique reads (ever), average 8995 samples behind. 4.00 MB raw data, 94 reads in queue, 4 reads missed, 299 chunks replaced.
+[13:17:34 - ReadUntil] Response summary: Counter({0: 627, 1: 92})
+[13:17:35 - Dyss] process30 reads in 2.28867506981 sec.
+[13:17:35 - Dyss] process30 reads in 0.0351819992065 sec.
+[13:17:35 - ReadUntil] Interval update: 323 read sections, 1591 unique reads (ever), average 8752 samples behind. 3.00 MB raw data, 1 reads in queue, 5 reads missed, 356 chunks replaced.
+[13:17:35 - ReadUntil] Response summary: Counter({0: 645, 1: 94})
+[13:17:35 - Dyss] process30 reads in 0.000167846679688 sec.
+[13:17:36 - ReadUntil] Interval update: 352 read sections, 1725 unique reads (ever), average 9341 samples behind. 4.00 MB raw data, 45 reads in queue, 5 reads missed, 360 chunks replaced.
+[13:17:36 - ReadUntil] Response summary: Counter({0: 737, 1: 94})
+[13:17:36 - Dyss] process30 reads in 1.00702905655 sec.
+query chunked:6037->212
+[13:17:37 - ReadUntil] Interval update: 258 read sections, 1820 unique reads (ever), average 9641 samples behind. 3.00 MB raw data, 36 reads in queue, 5 reads missed, 363 chunks replaced.
+[13:17:37 - ReadUntil] Response summary: Counter({0: 809, 1: 147})
+query chunked:6084->1
+score,25.251795
+query chunked:6033->239
+query chunked:6032->2
+[13:17:38 - ReadUntil] Interval update: 282 read sections, 1951 unique reads (ever), average 9009 samples behind. 3.00 MB raw data, 62 reads in queue, 6 reads missed, 388 chunks replaced.
+[13:17:38 - ReadUntil] Response summary: Counter({0: 809, 1: 147})
+[13:17:38 - Dyss] process30 reads in 2.35229301453 sec.
+query chunked:6045->2
+[13:17:39 - ReadUntil] Interval update: 294 read sections, 2051 unique reads (ever), average 9100 samples behind. 3.00 MB raw data, 66 reads in queue, 8 reads missed, 415 chunks replaced.
+[13:17:39 - ReadUntil] Response summary: Counter({0: 844, 1: 152})
+query chunked:4925->1
+[13:17:40 - ReadUntil] Interval update: 384 read sections, 2180 unique reads (ever), average 8961 samples behind. 4.00 MB raw data, 89 reads in queue, 11 reads missed, 481 chunks replaced.
+[13:17:40 - ReadUntil] Response summary: Counter({0: 844, 1: 152})
+score,26.831974
+[13:17:41 - ReadUntil] Interval update: 331 read sections, 2292 unique reads (ever), average 8332 samples behind. 3.00 MB raw data, 103 reads in queue, 14 reads missed, 556 chunks replaced.
+[13:17:41 - ReadUntil] Response summary: Counter({0: 844, 1: 152})
+[13:17:42 - Dyss] process30 reads in 3.32439088821 sec.
+[13:17:42 - Dyss] process30 reads in 0.0455780029297 sec.
+query chunked:6036->1
+score,26.73676
+query chunked:5111->97
+[13:17:42 - ReadUntil] Interval update: 264 read sections, 2370 unique reads (ever), average 8595 samples behind. 3.00 MB raw data, 26 reads in queue, 14 reads missed, 574 chunks replaced.
+[13:17:42 - ReadUntil] Response summary: Counter({0: 973, 1: 160})
+[13:17:43 - Dyss] process30 reads in 1.70891499519 sec.
+[13:17:44 - ReadUntil] Interval update: 281 read sections, 2480 unique reads (ever), average 8893 samples behind. 3.00 MB raw data, 32 reads in queue, 14 reads missed, 588 chunks replaced.
+[13:17:44 - ReadUntil] Response summary: Counter({0: 1073, 1: 193})
+query chunked:5427->2
+score,23.455599
+[13:17:45 - ReadUntil] Interval update: 269 read sections, 2589 unique reads (ever), average 9468 samples behind. 3.00 MB raw data, 62 reads in queue, 14 reads missed, 597 chunks replaced.
+[13:17:45 - ReadUntil] Response summary: Counter({0: 1073, 1: 193})
+score,27.026735
+query chunked:5648->2
+[13:17:45 - Dyss] process30 reads in 1.98548984528 sec.
+query chunked:6041->176
+[13:17:46 - ReadUntil] Interval update: 318 read sections, 2718 unique reads (ever), average 9516 samples behind. 3.00 MB raw data, 54 reads in queue, 14 reads missed, 632 chunks replaced.
+[13:17:46 - ReadUntil] Response summary: Counter({0: 1101, 1: 199})
+[13:17:47 - ReadUntil] Interval update: 252 read sections, 2807 unique reads (ever), average 9020 samples behind. 2.00 MB raw data, 81 reads in queue, 15 reads missed, 651 chunks replaced.
+[13:17:47 - ReadUntil] Response summary: Counter({0: 1101, 1: 199})
+[13:17:48 - ReadUntil] Interval update: 288 read sections, 2913 unique reads (ever), average 8887 samples behind. 3.00 MB raw data, 98 reads in queue, 15 reads missed, 709 chunks replaced.
+[13:17:48 - ReadUntil] Response summary: Counter({0: 1101, 1: 199})
+[13:17:49 - Dyss] process30 reads in 3.33192682266 sec.
+[13:17:49 - Dyss] process30 reads in 0.0415890216827 sec.
+[13:17:49 - ReadUntil] Interval update: 322 read sections, 3009 unique reads (ever), average 8557 samples behind. 3.00 MB raw data, 3 reads in queue, 17 reads missed, 785 chunks replaced.
+[13:17:49 - ReadUntil] Response summary: Counter({0: 1114, 1: 201})
+[13:17:49 - Dyss] process30 reads in 0.000324010848999 sec.
+[13:17:50 - ReadUntil] Interval update: 271 read sections, 3087 unique reads (ever), average 9264 samples behind. 3.00 MB raw data, 59 reads in queue, 17 reads missed, 785 chunks replaced.
+[13:17:50 - ReadUntil] Response summary: Counter({0: 1168, 1: 217})
+[13:17:51 - Dyss] process30 reads in 1.96331810951 sec.
+[13:17:51 - ReadUntil] Interval update: 276 read sections, 3199 unique reads (ever), average 9080 samples behind. 3.00 MB raw data, 47 reads in queue, 17 reads missed, 828 chunks replaced.
+[13:17:51 - ReadUntil] Response summary: Counter({0: 1225, 1: 220})
+[13:17:52 - ReadUntil] Interval update: 335 read sections, 3319 unique reads (ever), average 9283 samples behind. 3.00 MB raw data, 78 reads in queue, 18 reads missed, 846 chunks replaced.
+[13:17:52 - ReadUntil] Response summary: Counter({0: 1299, 1: 270})
+[13:17:53 - ReadUntil] Interval update: 229 read sections, 3387 unique reads (ever), average 8942 samples behind. 2.00 MB raw data, 86 reads in queue, 19 reads missed, 870 chunks replaced.
+[13:17:53 - ReadUntil] Response summary: Counter({0: 1299, 1: 270})
+[13:17:54 - Dyss] process30 reads in 2.56756281853 sec.
+query chunked:6042->185
+[13:17:54 - ReadUntil] Interval update: 258 read sections, 3507 unique reads (ever), average 9145 samples behind. 2.00 MB raw data, 80 reads in queue, 21 reads missed, 898 chunks replaced.
+[13:17:54 - ReadUntil] Response summary: Counter({0: 1327, 1: 278})
+score,16.602331
+[13:17:55 - ReadUntil] Interval update: 289 read sections, 3613 unique reads (ever), average 8894 samples behind. 3.00 MB raw data, 112 reads in queue, 23 reads missed, 922 chunks replaced.
+[13:17:55 - ReadUntil] Response summary: Counter({0: 1331, 1: 278})
+query chunked:6028->1
+query chunked:6030->201
+[13:17:56 - ReadUntil] Interval update: 306 read sections, 3715 unique reads (ever), average 8570 samples behind. 3.00 MB raw data, 122 reads in queue, 24 reads missed, 987 chunks replaced.
+[13:17:56 - ReadUntil] Response summary: Counter({0: 1331, 1: 278})
+[13:17:57 - Dyss] process30 reads in 3.25410294533 sec.
+[13:17:57 - Dyss] process30 reads in 0.0437190532684 sec.
+[13:17:57 - Dyss] process30 reads in 0.000121116638184 sec.
+query chunked:6035->1
+[13:17:57 - ReadUntil] Interval update: 265 read sections, 3797 unique reads (ever), average 8699 samples behind. 3.00 MB raw data, 6 reads in queue, 24 reads missed, 1027 chunks replaced.
+[13:17:57 - ReadUntil] Response summary: Counter({0: 1367, 1: 287})
+[13:17:58 - Dyss] process30 reads in 0.523087978363 sec.
+query chunked:6035->241
+[13:17:58 - ReadUntil] Interval update: 352 read sections, 3924 unique reads (ever), average 8511 samples behind. 4.00 MB raw data, 58 reads in queue, 24 reads missed, 1042 chunks replaced.
+[13:17:58 - ReadUntil] Response summary: Counter({0: 1465, 1: 295})
+[13:18:00 - ReadUntil] Interval update: 251 read sections, 4012 unique reads (ever), average 8829 samples behind. 2.00 MB raw data, 70 reads in queue, 24 reads missed, 1066 chunks replaced.
+[13:18:00 - ReadUntil] Response summary: Counter({0: 1531, 1: 366})
+[13:18:00 - Dyss] process30 reads in 2.41562390327 sec.
+query chunked:5385->2
+query chunked:5308->2
+query chunked:5117->2
+[13:18:01 - ReadUntil] Interval update: 267 read sections, 4105 unique reads (ever), average 8864 samples behind. 3.00 MB raw data, 62 reads in queue, 25 reads missed, 1088 chunks replaced.
+[13:18:01 - ReadUntil] Response summary: Counter({0: 1568, 1: 374})
+[13:18:02 - ReadUntil] Interval update: 258 read sections, 4198 unique reads (ever), average 9197 samples behind. 2.00 MB raw data, 88 reads in queue, 27 reads missed, 1116 chunks replaced.
+[13:18:02 - ReadUntil] Response summary: Counter({0: 1568, 1: 374})
+[13:18:02 - Dyss] process30 reads in 2.0374019146 sec.
+query chunked:6032->1
+[13:18:03 - ReadUntil] Interval update: 353 read sections, 4336 unique reads (ever), average 9568 samples behind. 4.00 MB raw data, 85 reads in queue, 30 reads missed, 1152 chunks replaced.
+[13:18:03 - ReadUntil] Response summary: Counter({0: 1601, 1: 378})
+score,18.018253
+[13:18:04 - ReadUntil] Interval update: 330 read sections, 4458 unique reads (ever), average 8332 samples behind. 3.00 MB raw data, 112 reads in queue, 33 reads missed, 1203 chunks replaced.
+[13:18:04 - ReadUntil] Response summary: Counter({0: 1601, 1: 378})
+query chunked:4784->2
+[13:18:05 - Dyss] process30 reads in 3.01148700714 sec.
+[13:18:05 - ReadUntil] Interval update: 370 read sections, 4579 unique reads (ever), average 8699 samples behind. 4.00 MB raw data, 12 reads in queue, 37 reads missed, 1269 chunks replaced.
+[13:18:05 - ReadUntil] Response summary: Counter({0: 1631, 1: 383})
+score,26.965614
+[13:18:06 - Dyss] process30 reads in 1.05266618729 sec.
+[13:18:06 - ReadUntil] Interval update: 244 read sections, 4648 unique reads (ever), average 8482 samples behind. 2.00 MB raw data, 28 reads in queue, 37 reads missed, 1282 chunks replaced.
+[13:18:06 - ReadUntil] Response summary: Counter({0: 1698, 1: 385})
+query chunked:6043->1
+[13:18:07 - ReadUntil] Interval update: 214 read sections, 4724 unique reads (ever), average 9640 samples behind. 2.00 MB raw data, 48 reads in queue, 37 reads missed, 1296 chunks replaced.
+[13:18:07 - ReadUntil] Response summary: Counter({0: 1749, 1: 393})
+score,26.557152
+[13:18:08 - ReadUntil] Interval update: 263 read sections, 4820 unique reads (ever), average 9540 samples behind. 3.00 MB raw data, 60 reads in queue, 37 reads missed, 1315 chunks replaced.
+[13:18:08 - ReadUntil] Response summary: Counter({0: 1801, 1: 463})
+[13:18:09 - Dyss] process30 reads in 2.91467905045 sec.
+[13:18:09 - ReadUntil] Interval update: 291 read sections, 4929 unique reads (ever), average 9064 samples behind. 3.00 MB raw data, 53 reads in queue, 38 reads missed, 1347 chunks replaced.
+[13:18:09 - ReadUntil] Response summary: Counter({0: 1828, 1: 482})
+[13:18:11 - ReadUntil] Interval update: 270 read sections, 5024 unique reads (ever), average 8741 samples behind. 3.00 MB raw data, 76 reads in queue, 39 reads missed, 1365 chunks replaced.
+[13:18:11 - ReadUntil] Response summary: Counter({0: 1828, 1: 482})
+query chunked:6066->1
+query chunked:6029->209
+[13:18:11 - Dyss] process30 reads in 2.43574690819 sec.
+query chunked:6049->1
+[13:18:12 - ReadUntil] Interval update: 336 read sections, 5150 unique reads (ever), average 8759 samples behind. 3.00 MB raw data, 69 reads in queue, 41 reads missed, 1418 chunks replaced.
+[13:18:12 - ReadUntil] Response summary: Counter({0: 1857, 1: 484})
+[13:18:13 - ReadUntil] Interval update: 252 read sections, 5232 unique reads (ever), average 8717 samples behind. 2.00 MB raw data, 93 reads in queue, 41 reads missed, 1441 chunks replaced.
+[13:18:13 - ReadUntil] Response summary: Counter({0: 1871, 1: 484})
+score,26.055237
+score,25.792147
+[13:18:14 - ReadUntil] Interval update: 371 read sections, 5362 unique reads (ever), average 8672 samples behind. 4.00 MB raw data, 112 reads in queue, 46 reads missed, 1504 chunks replaced.
+[13:18:14 - ReadUntil] Response summary: Counter({0: 1871, 1: 484})
+[13:18:14 - Dyss] process30 reads in 2.9219520092 sec.
+query chunked:6047->1
+[13:18:15 - ReadUntil] Interval update: 277 read sections, 5449 unique reads (ever), average 8807 samples behind. 3.00 MB raw data, 47 reads in queue, 46 reads missed, 1519 chunks replaced.
+[13:18:15 - ReadUntil] Response summary: Counter({0: 1907, 1: 496})
+[13:18:16 - Dyss] process30 reads in 1.38889598846 sec.
+query chunked:6160->31
+query chunked:6031->237
+query chunked:6041->86
+[13:18:16 - ReadUntil] Interval update: 323 read sections, 5553 unique reads (ever), average 8738 samples behind. 3.00 MB raw data, 57 reads in queue, 46 reads missed, 1561 chunks replaced.
+[13:18:16 - ReadUntil] Response summary: Counter({0: 1969, 1: 496})
+[13:18:18 - ReadUntil] Interval update: 336 read sections, 5675 unique reads (ever), average 8684 samples behind. 3.00 MB raw data, 81 reads in queue, 47 reads missed, 1603 chunks replaced.
+[13:18:18 - ReadUntil] Response summary: Counter({0: 2042, 1: 577})
+[13:18:18 - Dyss] process30 reads in 2.54180812836 sec.
+[13:18:19 - ReadUntil] Interval update: 331 read sections, 5787 unique reads (ever), average 9345 samples behind. 3.00 MB raw data, 88 reads in queue, 49 reads missed, 1636 chunks replaced.
+[13:18:19 - ReadUntil] Response summary: Counter({0: 2094, 1: 579})
+query chunked:5062->2
+[13:18:20 - ReadUntil] Interval update: 258 read sections, 5880 unique reads (ever), average 9480 samples behind. 2.00 MB raw data, 105 reads in queue, 53 reads missed, 1671 chunks replaced.
+[13:18:20 - ReadUntil] Response summary: Counter({0: 2094, 1: 579})
+[13:18:21 - ReadUntil] Interval update: 344 read sections, 6004 unique reads (ever), average 9346 samples behind. 3.00 MB raw data, 113 reads in queue, 56 reads missed, 1744 chunks replaced.
+[13:18:21 - ReadUntil] Response summary: Counter({0: 2094, 1: 579})
+[13:18:21 - Dyss] process30 reads in 3.21136617661 sec.
+[13:18:22 - Dyss] process30 reads in 0.0491120815277 sec.
+[13:18:22 - Dyss] process30 reads in 0.000108003616333 sec.
+[13:18:22 - ReadUntil] Interval update: 283 read sections, 6089 unique reads (ever), average 8312 samples behind. 3.00 MB raw data, 21 reads in queue, 57 reads missed, 1778 chunks replaced.
+[13:18:22 - ReadUntil] Response summary: Counter({0: 2154, 1: 591})
+query chunked:6047->183
+[13:18:22 - ReadUntil] Stream finished after timeout.
+[13:18:23 - ReadUntil] Interval update: 257 read sections, 6176 unique reads (ever), average 8673 samples behind. 2.00 MB raw data, 58 reads in queue, 57 reads missed, 1794 chunks replaced.
+[13:18:23 - ReadUntil] Response summary: Counter({0: 2267, 1: 656})
+[13:18:23 - ReadUntil] Finished processing gRPC stream.
+[13:18:23 - Dyss] process30 reads in 1.54853796959 sec.
+[13:18:23 - Dyss] Finished analysis of reads.
+
