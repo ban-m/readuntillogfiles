@@ -24,7 +24,7 @@ Each folder corresponds to the experiment described in the paper as follows:
         - 2018-02-24-dyss-sc-record-1300.log : 5 hours
         - 2018-02-24-dyss-sc-record-1805.log : 5 hours
         - 2018-02-24-dyss-sc-record-2307.log : 6 hours
-+ The information contained in Dyss section may not be so useful, because Dyss assumed every "batch" of the queries was 30 length long.
+    - The information contained in Dyss section may not be so useful, because Dyss assumed every "batch" of the queries was 30 length long.
 + ./logfile-replicate-2 <-> table2. repr2.
     - The experiment was carried our for about 18.5 hours and the order of log file is
         - 2018-02-28-dyss-sc-1315.log : 1 minute
@@ -32,6 +32,7 @@ Each folder corresponds to the experiment described in the paper as follows:
         - 2018-02-28-dyss-sc-record-1555.log : 3 hours
         - 2018-02-28-dyss-sc-record-1825.log : 6 hours
         - 2018-02-28-dyss-sc-record-0130.log : 6 hours
+    - The information contained in Dyss section may not be so useful, because Dyss assumed every "batch" of the queries was 30 length long.
 + ./logfile-hotswap <-> Fig4.
     - The experiment was carried our for 5.5 hours for chr01,an internally error of MinKNOW occured, then 9 hours for chr02.
         - 2018-03-14-dyss-sc-1500.log : for chr01, 5.5 hours.
