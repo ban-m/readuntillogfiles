@@ -11,6 +11,7 @@
   cat ./logfile-replicate-2/*.log | grep "processing "
   ```
 
+  Also we provide the information about "dry-run" of our paper(such as parameter tuning).  
 
 ## Description
   Generally speaking, file with .log extention contains the standard err from "ReadUntil"API and our algorihtms and .out extention contains the summary of the experiment.
@@ -50,3 +51,9 @@ Each folder corresponds to the experiment described in the paper as follows:
   In addition, we can ``` grep "Interval" | grep -v "[^d]0 query in queue" to see that the classifier was not so good at catching up the throuput of a sequencer.
   Even though this phenomenon disappear in a few hours and this consisits a small fraction of entire procedure(48 hours), we may fix this problem by using a hash function for DTW.
 
+
+## Parameter tuning and others
+
++ For those interested in parameter tuning of hill function, see:https://bitbucket.org/ban-m/hill_function_fitting
++ For those interested in score in Table 1., see:https://bitbucket.org/ban-m/score_calculate
++ For those interested in speed checking in Table 1., see:https://bitbucket.org/ban-m/long_reference_speedcheck
