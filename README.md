@@ -16,6 +16,7 @@
   Generally speaking, file with .log extention contains the standard err from "ReadUntil"API and our algorihtms and .out extention contains the summary of the experiment.
 
 Each folder corresponds to the experiment described in the paper as follows:
+
 + ./logfile-replicate-1 <-> table2. repr1.
     - The experiment was carried out for about 18.5 hours and the order of log files is
         - 2018-02-24-dyss-sc-record-test.log : 1 minute
@@ -24,7 +25,6 @@ Each folder corresponds to the experiment described in the paper as follows:
         - 2018-02-24-dyss-sc-record-1805.log : 5 hours
         - 2018-02-24-dyss-sc-record-2307.log : 6 hours
 + The information contained in Dyss section may not be so useful, because Dyss assumed every "batch" of the queries was 30 length long.
-  
 + ./logfile-replicate-2 <-> table2. repr2.
     - The experiment was carried our for about 18.5 hours and the order of log file is
         - 2018-02-28-dyss-sc-1315.log : 1 minute
