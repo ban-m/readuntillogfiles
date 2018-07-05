@@ -1,17 +1,16 @@
 # Log file of Read Until experiment
-
 - Author: Bansho Masutani<banmasutani@gmail.com>
 
 ## Short Summary
   This repository contains some log files obtained during sequencing runs with "Read Until" API bundled with MinION sequencer.
-  One may find it informative when validating/questioning about results in our paper which is published soon.
-  For example, if you want to know how quickly our algorithm can process each query in replicate 2,
+  One may find it informative when validating/questioning about results in our paper which will be published soon.
+  For example, if you want to know how quickly our algorithm can process each query in replicate no.2,
   you can just type the following unix command:
   ```
   cat ./logfile-replicate-2/*.log | grep "processing "
   ```
 
-  Also we provide the information about "dry-run" of our paper(such as parameter tuning).  
+  If you want to see the result itself(i.e. fast5 files), see [repository in sequence read archive](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA445929).
 
 ## Description
   Generally speaking, file with .log extention contains the standard err from "ReadUntil"API and our algorihtms and .out extention contains the summary of the experiment.
@@ -39,7 +38,10 @@ Each folder corresponds to the experiment described in the paper as follows:
         - 2018-03-14-dyss-sc-1500.log : for chr01, 5.5 hours.
         - 2018-03-14-dyss-sc2-2105.log : for chr02, 2 hours.
         - 2018-03-14-dyss-sc2-2300.log : for chr02, 7 hours.
-  
++ ./logfile-ecoli <-> Table 3. repl1 and 2.
+    - The experiment was carried our for 18.5 hours and 4.5 hours, for two biological replicate, respectively.
+        - 2018-06-27-ecoli.log: for 4.5 hours run.
+        - 2018-06-28-ecoli.log: for 18.5 hours run.
 
 ## Comment
 
@@ -48,7 +50,7 @@ Each folder corresponds to the experiment described in the paper as follows:
   For example, we can ``` grep Chunked ``` for .log file to see that the chunking was carried for 6000 long queries.
   This suggests that the classification applied for the raw signal as long as 6000, which is a kind of 'over-kill' for current DTW scoring system using first 250 events(~ 2000 signals).
   
-  In addition, we can ``` grep "Interval" | grep -v "[^d]0 query in queue" to see that the classifier was not so good at catching up the throuput of a sequencer.
+  In addition, we can ``` grep "Interval" | grep -v "[^d]0 query in queue" to see that the classifier was not so good at catching up the throuput of a sequencer during first a few hours.
   Even though this phenomenon disappear in a few hours and this consisits a small fraction of entire procedure(48 hours), we may fix this problem by using a hash function for DTW.
 
 
