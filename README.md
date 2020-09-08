@@ -1,11 +1,14 @@
 # Log file of Read Until experiment
 - Author: Bansho Masutani<banmasutani@gmail.com>
 
+## Remark:
+
+The Dyss packeges was moved to a [GitHub repository](https://github.com/ban-m/dyss), as BitBucket no longer support Mercurial repositories. (2020/09/08)
+
+
 ## Short Summary
-  This repository contains some log files obtained during sequencing runs with "Read Until" API bundled with MinION sequencer.
-  One may find it informative when validating/questioning about results in our paper which will be published soon.
-  For example, if you want to know how quickly our algorithm can process each query in replicate no.2,
-  you can just type the following unix command:
+  This repository contains log files obtained during sequencing with "Read Until" API bundled with MinION sequencer.
+  One may find it useful when validating/questioning about results in our paper. For example, if you want to know how quickly our algorithm can process each query in replicate no.2,  you can just type the following unix command:
   ```
   cat ./logfile-replicate-2/*.log | grep "processing "
   ```
@@ -47,15 +50,15 @@ Each folder corresponds to the experiment described in the paper as follows:
 
   There is a plenty of room to improve the performance of our algorithm implimentation.
   
-  For example, we can ``` grep Chunked ``` for .log file to see that the chunking was carried for 6000 long queries.
-  This suggests that the classification applied for the raw signal as long as 6000, which is a kind of 'over-kill' for current DTW scoring system using first 250 events(~ 2000 signals).
+  For example, we can `grep Chunked` for .log file to see that the chunking was carried for 6000 long queries.
+  This suggests that the classification applied for the raw signal as long as 6000, which is too long for current DTW scoring system, which use first 250 events(~ 2000 signals).
   
-  In addition, we can ``` grep "Interval" | grep -v "[^d]0 query in queue" to see that the classifier was not so good at catching up the throuput of a sequencer during first a few hours.
+  In addition, we can `grep "Interval" | grep -v "[^d]0 query in queue` to see that the classifier was not so good at catching up the throuput of a sequencer during first a few hours.
   Even though this phenomenon disappear in a few hours and this consisits a small fraction of entire procedure(48 hours), we may fix this problem by using a hash function for DTW.
 
 
 ## Parameter tuning and others
 
-+ For those interested in parameter tuning of hill function, see:https://bitbucket.org/ban-m/hill_function_fitting
-+ For those interested in score in Table 1., see:https://bitbucket.org/ban-m/score_calculate
-+ For those interested in speed checking in Table 1., see:https://bitbucket.org/ban-m/long_reference_speedcheck
++ For those interested in parameter tuning of hill function, see [this repository](https://github.com/ban-m/hill_function_fitting)
++ For those interested in score in Table 1., see [this repository](https://github.com/ban-m/score_calculate)
++ For those interested in speed checking in Table 1., see [this repository](https://github.com/ban-m/long_reference_speedcheck)
